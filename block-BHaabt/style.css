@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Style*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-article {
+    display: flex;
+    align-items: flex-start;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 70px;
+}
+.padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+
+.button {
+    padding: 10px;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Header*/
+
+.header {
+    padding: 20px;
+}
+
+.brand a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(45, 38, 64);
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.header-nav a {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(187, 187, 187);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.article-btn {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+/*Article*/
+.article-section{
+    background-color: rgb(45, 38, 64);
+
+}
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: white;
+
+}
+
+.col1-2 {
+    flex: 0 1 40%;
+
+}
+.col1-2 img {
+    width: 100%;
+    margin-bottom: -180px;
+}
+
+.article-heading {
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.article-text {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/*Second Article*/
+.second-header {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: rgb(45, 38, 64);
+    font-family: 'Roboto', sans-serif;
+}
+.second-para {
+    font-size: 17px;
+    color: rgb(187, 187, 187);
+    padding-bottom: 20px;
+
+}
+.more-btn {
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.setting {
+    padding-top: 90px;
+}
+.bottom-line {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(187, 187, 187);
+
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(146, 195, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.col1-3 {
+    flex: 0 1 30%;
+}
+
+.work-section {
+    background-color: rgb(45, 38, 64);
+}
+.work-header {
+    font-size: 45px;
+    color: white;
+    margin-left: 70px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.work-btn {
+   margin-right: 70px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+/*Bottom section*/
+
+.bottom-section {
+    padding-top:  90px;
+    padding-bottom: 10px;
+}
+.social a {
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/*Footer*/
+.footer nav {
+    text-align: center;
+    padding:20px;
+}
+
+
+.footer nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.copyright {
+    background-color: rgb(45, 38, 64);
+    padding: 17px;
+    text-align: center;
+}
+.copyright small {
+    font-size: 23px;
+    color: white;
+   
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
